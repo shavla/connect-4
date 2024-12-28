@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div class="dialog-container hidden">
+    <div class="dialog">
+      <div class="info"></div>
+      <div class="dialog-buttons">
+        <button class="play-again">Play Again</button>
+        <button class="go-back">To Menu</button>
+      </div>
+    </div>
+  </div>
+  <div id="lobby">
+    <div class="choose-mode">
+      <div class="single">
+        <button class="single-button">Play with bot</button>
+      </div>
+      <div class="multiplier">
+        <button class="multiplier-button">Play with friend</button>
+      </div>
+    </div>
+  </div>
+  <div id="app" class="hidden"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
